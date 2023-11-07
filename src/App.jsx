@@ -4,7 +4,7 @@ const App = () => {
   return (
     <main className="relative">
       <Nav />
-      <section id="#hero" className="padding-l max-xl:padding-r padding-b">
+      <section id="#hero" className="padding-l max-xl:padding-r padding-b z-10">
         <Hero />
       </section>
       <section>Popular Products</section>
